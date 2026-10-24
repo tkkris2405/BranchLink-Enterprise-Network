@@ -1,0 +1,75 @@
+BranchLink Enterprise Network:
+Overview-
+BranchLink Enterprise Network is a Cisco Packet Tracer project that demonstrates communication between Headquarters (HQ), Branch-A, and Branch-B using OSPF dynamic routing. The network allows branch users to communicate with HQ devices and access centralized server resources.
+
+Network Topology:
+
+HQ Router
+Branch-A Router
+Branch-B Router
+HR Team PC
+Finance Team PC
+Sales Team PC
+Support Team PC
+Centralized Server
+Cisco Switches
+Cloud and DSL WAN Connectivity
+
+Technologies Used:
+
+Cisco Packet Tracer
+OSPF Routing Protocol
+FTP Server
+DNS Server
+Static IP Addressing
+Routing and Switching
+IP Addressing
+
+Device	IP Address:
+
+HR PC	10.0.0.10
+Finance PC	10.0.0.20
+Server	10.0.5.100
+Sales PC	10.0.1.10
+Support PC	10.0.2.10
+Features:
+
+✅ OSPF Dynamic Routing
+
+✅ HQ to Branch Connectivity
+
+✅ Branch-to-Branch Communication
+
+✅ Centralized FTP Server
+
+✅ Centralized DNS Server
+
+✅ End-to-End Connectivity Testing
+
+Testing Results:
+
+OSPF Verification
+show ip route
+show ip ospf neighbor
+
+Connectivity Tests:
+
+ping 10.0.5.100
+ping 10.0.0.10
+ping 10.0.0.20
+
+FTP Access:
+
+ftp 10.0.5.100
+Successful login and server access were verified.
+
+Network Diagram
+Upload your topology screenshot as:
+
+topology.png
+
+Author
+Krishna R K
+
+Software
+Cisco Packet Tracer 8.x
